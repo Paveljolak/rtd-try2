@@ -3,16 +3,42 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-RTD Try2 documentation
-======================
+Ubiquity Robotics Gen 6 Documentation
+=========================================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Welcome to the Ubiquity Robotics Magni Gen 6 robot documentation.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Getting Started:
+
+   getting_started/requirements
+   getting_started/unboxing
+   getting_started/connecting
+   getting_started/driving
+
+
+.. toctree:: 
+   :maxdepth: 2
+   :caption: Software
+
+   software/images
+   software/openrmf
+   software/ezmap
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Hardware
 
-   autodoc
+   hardware/raspberry_pi
+   hardware/lidars
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Magni 6 Models
+
+   magni6_mini
+   magni6_medium
+   magni6_large
