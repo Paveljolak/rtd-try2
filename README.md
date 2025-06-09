@@ -36,7 +36,7 @@ make html
 firefox _build/html/index.html
 
 # (Optional - Requires sphinx-autobuild)
-sphinx-autobuild _build/html # autobuilds the site on save. It serves it locally on port 8000. 
+sphinx-autobuild . _build/html # autobuilds the site on save. It serves it locally on port 8000. 
 # [sphinx-autobuild] Serving on http://127.0.0.1:8000
 
 ```
