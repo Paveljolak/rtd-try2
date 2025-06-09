@@ -16,6 +16,16 @@ pwd
 ls -lah
 export SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)
 
+
+##############
+# DOWNLOAD REQUIREMENTS #
+##############
+pip install -r required_packages.txt
+
+# for exact reproducability of the packages run:
+# pip install -r required_packages_versions.txt
+
+
 ##############
 # BUILD DOCS #
 ##############
