@@ -6,10 +6,6 @@ set -x
 #          Pages. This script is executed by:
 #            .github/workflows/docs_pages_workflow.yml
 #
-# Authors: Paveljolak <paveljolak123@gmail.com>
-# Created: 2025-06-06
-# Updated: 2025-06-06
-# Version: 0.1
 ################################################################################
 
 #####################
@@ -58,9 +54,6 @@ Nothing to see here. The contents of this branch are essentially a cache that's 
 
 If you're looking to update our documentation, check the relevant development branch's 'docs/' dir.
 
-For more information on how this documentation is built using Sphinx, Read the Docs, and GitHub Actions/Pages, see:
- **
- * https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1
 EOF
 
 # copy the resulting html pages built from sphinx above to our new git repo

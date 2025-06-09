@@ -1,14 +1,13 @@
-Magni6 Mini
-============
+Magni6 Medium
+===============
 
-Describe your Magni6 Mini here...
+Describe your Magni6 Medium here...
 
-.. image:: /_static/magni6_mini.jpg
-   :alt: Magni 6 Mini
+
+.. image:: /_static/magni6_medi.jpg
+   :alt: Magni 6 Medium
    :width: 400px
    :align: center
-
-
 
 
 This is how videos will look like:
@@ -22,5 +21,4 @@ This is how videos will look like:
         allowfullscreen 
         referrerpolicy="no-referrer-when-downgrade">
     </iframe>
-
 

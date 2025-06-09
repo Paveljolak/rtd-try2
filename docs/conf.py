@@ -6,15 +6,18 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'RTD Try2'
-copyright = '2025, Paveljolak'
-author = 'Paveljolak'
-release = '1.0.0'
+project = 'Ubiquity Robotics Documentation'
+copyright = '[CopyRight Year], Copyright Author'
+author = 'Author'
+release = '[Release Date]'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc']
+extensions = [
+	'sphinx.ext.autodoc',
+	'myst_parser',
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
