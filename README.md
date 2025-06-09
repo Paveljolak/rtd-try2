@@ -29,6 +29,9 @@ pip install -r required_packages.txt # Run this only the first time you clone th
 # (Optional) Install exact versions used in development:
 # pip install -r required_packages_versions.txt
 
+# Get into docs directory
+cd docs/
+
 # Build the documentation 
 make html 
 
