@@ -13,9 +13,7 @@ Welcome to the Ubiquity Robotics Magni Gen 6 robot documentation.
    :caption: Getting Started:
 
    getting_started/requirements
-   getting_started/unboxing
-   getting_started/connecting
-   getting_started/driving
+   getting_started/getting_started_mini
 
 
 .. toctree:: 
@@ -33,7 +31,9 @@ Welcome to the Ubiquity Robotics Magni Gen 6 robot documentation.
 
    hardware/raspberry_pi
    hardware/lidars
+   hardware/batteries
 
+.. TODO: FIX THE ISSUE WHERE THE BATTERIES DOCS DISSAPEAR WHEN YOU ENTER HARDWARE PART 
 
 .. toctree::
    :maxdepth: 1
@@ -43,3 +43,6 @@ Welcome to the Ubiquity Robotics Magni Gen 6 robot documentation.
    magni6_medium
    magni6_large
    example.md
+
+
+
