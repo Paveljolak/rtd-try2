@@ -10,11 +10,19 @@ Welcome to the Ubiquity Robotics Magni Gen 6 robot documentation.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting Started:
+   :caption: Getting Started
 
    getting_started/requirements
+   getting_started/workstation
    getting_started/getting_started_mini
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Magni 6 Models
+
+   magni6_models/magni6_mini
+   magni6_models/magni6_medium
+   magni6_models/magni6_large
 
 .. toctree:: 
    :maxdepth: 2
@@ -24,25 +32,31 @@ Welcome to the Ubiquity Robotics Magni Gen 6 robot documentation.
    software/openrmf
    software/ezmap
 
-
 .. toctree::
    :maxdepth: 2
    :caption: Hardware
 
    hardware/raspberry_pi
+   hardware/raspberry_pi_camera
    hardware/lidars
    hardware/batteries
 
 .. TODO: FIX THE ISSUE WHERE THE BATTERIES DOCS DISSAPEAR WHEN YOU ENTER HARDWARE PART 
 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Beginner Projects for Magni Mini
+   
+   projects/ezmap
+   projects/obstacle_avoidance
+   projects/telepresence
+
+
 .. toctree::
    :maxdepth: 1
-   :caption: Magni 6 Models
+   :caption: Examples of .MDs
 
-   magni6_mini
-   magni6_medium
-   magni6_large
-   example.md
-
+   example
 
 

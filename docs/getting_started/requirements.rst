@@ -1,5 +1,5 @@
-Requirements
-============
+What you need to get started
+============================
 
 To get started with any of the Magni 6 robots, you will need the following:
 
@@ -8,14 +8,20 @@ To get started with any of the Magni 6 robots, you will need the following:
 
 You will need a functional Magni 6 unit (Mini, Medium, Large). Each comes preloaded with our custom image and base firmware.
 
-See the different robots: :doc:`../magni6_mini` | :doc:`../magni6_medium` | :doc:`../magni6_large`
+See the different robots: :doc:`../magni6_models/magni6_mini` | :doc:`../magni6_models/magni6_medium` | :doc:`../magni6_models/magni6_large`
 
 You can buy your own robot from our website: `Ubiquity Robotics Store <https://www.ubiquityrobotics.com/>`_
 
+.. note:: 
+   If you are new to robotics we recommend the Magni 6 Mini.
+
+
 2. 12V Batteries (x2)
 ---------------------
-The robot requires two 12V batteries to operate. We recommend lead-acid batteries. 
+The robots require two 12V batteries to operate. We recommend lead-acid batteries. 
 Make sure they are safely mounted and connected as per your model's guidelines. 
+You can read details regarding the batteries on this page: :doc:`../hardware/batteries`
+
 
 .. TODO: Add more details if different Mini and Medi use different batteries. 
 
@@ -23,6 +29,7 @@ Make sure they are safely mounted and connected as per your model's guidelines.
 ----------------------------
 You will need a laptop or desktop computer capable of SSH connections to connect to the robot.
 This workstation will be used for tasks such as remote access, updates, and running software tools on the robot. 
+To properly set up your workstation see: :doc:`./workstation`
 
 See: :doc:`../getting_started/connecting` to see more details on how to connect to the robot. 
 

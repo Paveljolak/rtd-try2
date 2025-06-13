@@ -20,7 +20,7 @@ Sneak peak
     <div style="display: flex; justify-content: center;"> 
         <iframe 
             width="560" height="315" 
-            src="https://www.youtube.com/embed/1VUnxondorA" 
+            src="https://www.youtube.com/embed/dL5KSdB5WjE" 
             frameborder="0" 
             allowfullscreen 
             referrerpolicy="no-referrer-when-downgrade">
@@ -41,7 +41,7 @@ Key features include:
     - Ideal for beginers and advanced users alike.
 
 
-**Get Started**: :doc:`./getting_started/getting_started_mini`
+**Get Started**: :doc:`../getting_started/getting_started_mini`
 
 
 Build Specifications
@@ -63,7 +63,7 @@ Sensors
 
 **Built-in Sensors**:
     - :doc:`Short-range LIDAR <../hardware/lidars>`
-    - :doc:`Raspberry Pi Camera <./hardware/raspberry_pi>`
+    - :doc:`Raspberry Pi Camera <../hardware/raspberry_pi_camera>`
 
 **Supported Add-ons**:
     - sensor 1 
@@ -82,21 +82,19 @@ Projects
     Testing on a table top can lead to flying robots. Please when driving and testing the robot, keep it on the floor.
 
 
-
-
 Here are three suggested projects for the Magni 6 Mini. Using the short-range Lidar and the Pi Camera:
 
 - **Room Mapping Starter**: Create a 2D map of your environment using the short-range LIDAR and Ez-Map software. Ideal for learning SLAM basics.
 
-    See: :doc:`./projects/ezmap`
+    See: :doc:`../projects/ezmap`
 
 
 - **Obstacle Avoidance**: Program the Magni 6 Mini to navigate around obstacles using the short-range LIDAR for proximity detection. Perfect for beginners experimenting with autonomous navigation.
 
-    See: :doc:`./projects/obstacle_avoidance`
+    See: :doc:`../projects/obstacle_avoidance`
 
 - **Live Video Patrol**: Use the Raspberry Pi Camera to stream live video, turning the Magni 6 Mini into a mobile surveillance bot. Great for remote monitoring.
 
-    See: :doc:`./projects/telepresence`
+    See: :doc:`../projects/telepresence`
 
 

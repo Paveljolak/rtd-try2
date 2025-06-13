@@ -1,18 +1,15 @@
 Getting Started with Magni 6 Mini
 =================================
 
-This guide cover unboxing and setting up your Magni 6 Mini robot. 
+This guide cover unboxing and setting up your :doc:`../magni6_models/magni6_mini` robot. 
 For general requirements and connectivity, see :doc:`./requirements` and :doc:`./connecting`. 
-
-
 
 Unboxing
 --------
 
-
 The Magni 6 Mini package includes the following:
     - 1x Magni 6 Mini Robot (pre-assembled)
-    - 1x Quick Start Guide 
+    - 1x Battery Charger (see: :doc:`../hardware/batteries` on how to charge.)
 
 .. image:: /_static/magni-mini/unboxing_mini.jpg
    :alt: Unboxing Magni 6 Mini
@@ -23,9 +20,12 @@ The Magni 6 Mini package includes the following:
 |
 
 **Initial Inspection Checklist**:
-    - Verify all componenets are included and undamaged.
+    - Verify all components are included and undamaged. [TODO: We will add here images of all the components so users can check.] 
     - Check for loose connectors or wheels.
     - Ensure the Lidar on top of the cover is undamaged.
+[ TODO: We will add video to show the checking process. ]
+
+.. TODO: Create a video for the check above, also add pictures there.
 
 |
 .. TODO: Add images here.
