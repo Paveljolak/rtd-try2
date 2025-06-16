@@ -14,8 +14,6 @@ The Magni 6 Mini package includes the following:
 .. image:: /_static/magni-mini/unboxing_mini.jpg
    :alt: Unboxing Magni 6 Mini
    :width: 400px
-   :align: center
-
 
 |
 

@@ -1,5 +1,5 @@
-ROS Workstation Setup For Magni Robot
-=====================================
+ROS Workstation Setup For Magni Robots
+======================================
 
 A **ROS Workstation** is a desktop or laptop computer with a full ROS (Robot Operating System) setup that connects to your robot over the network. 
 It allows you to:
@@ -116,7 +116,6 @@ Make them **persistent** by adding to `~/.bashrc`:
 .. note::
      **Don't do this** if using **multiple robots** – set them per terminal manually.
 
-
 ****
 
 If Zeroconf Fails
@@ -225,7 +224,6 @@ If yes, ROS is communicating with your robot.
 Drive Magni from Workstation
 ############################
 
-
 Instead of running `teleop_twist_keyboard` on the robot, now run it from the workstation:
 
 .. code-block:: bash
@@ -261,9 +259,6 @@ Summary Checklist
 
 
 You're now ready to develop and monitor ROS-based robotics applications from your workstation!
-
-
-
 
 
 .. TODO: Check the validity of this information here. It can probably be a lot easier for users.
