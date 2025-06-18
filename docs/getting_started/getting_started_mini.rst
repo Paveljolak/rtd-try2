@@ -10,6 +10,7 @@ Unboxing
 The Magni 6 Mini package includes the following:
     - 1x Magni 6 Mini Robot (pre-assembled)
     - 1x Battery Charger (see: :doc:`../hardware/batteries` on how to charge.)
+    .. TODO: Image of the battery Charger.
 
 .. image:: /_static/magni-mini/unboxing_mini.jpg
    :alt: Unboxing Magni 6 Mini
@@ -24,6 +25,7 @@ The Magni 6 Mini package includes the following:
 [ TODO: We will add video to show the checking process. ]
 
 .. TODO: Create a video for the check above, also add pictures there.
+.. TODO: Video of proper wiring. When we fix the wiring.
 
 |
 .. TODO: Add images here.
