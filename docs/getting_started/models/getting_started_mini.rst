@@ -1,15 +1,15 @@
 Getting Started with Magni 6 Mini
 =================================
 
-This guide cover unboxing and setting up your :doc:`../magni6_models/magni6_mini` robot. 
-For general requirements and connectivity, see :doc:`./requirements` and :doc:`./connecting`. 
+This guide cover unboxing and setting up your :doc:`../../magni6_models/models/magni6_mini` robot. 
+For general requirements and connectivity, see :doc:`../requirements` and :doc:`../connecting`. 
 
 Unboxing
 --------
 
 The Magni 6 Mini package includes the following:
     - 1x Magni 6 Mini Robot (pre-assembled)
-    - 1x Battery Charger (see: :doc:`../hardware/batteries` on how to charge.)
+    - 1x Battery Charger (see: :doc:`../../hardware/beginner/batteries` on how to charge.)
     .. TODO: Image of the battery Charger.
 
 .. image:: /_static/magni-mini/unboxing_mini.jpg
@@ -60,7 +60,7 @@ Ensure the Magni 6 Mini's two Lead-Acid batteries are safely installed and charg
 .. warning:: 
     - Do not use a damaged battery, as it may pose a safety hazard.
     - Charge in a well-ventilated area away from flammable materials.
-    - See :doc:`../hardware/batteries`
+    - See :doc:`../../hardware/beginner/batteries`
 
 
 Powering up the Robot
@@ -88,7 +88,7 @@ The robot is now powered on and ready for connection.
 Connecting to the robot
 #######################
 
-See :doc:`./connecting` for general connectivity guides. The Magni 6 Mini emits its own Wi-Fi for SSH access, or you can connect via home network.
+See :doc:`../connecting` for general connectivity guides. The Magni 6 Mini emits its own Wi-Fi for SSH access, or you can connect via home network.
 
 **Option 1: Connect via Robot's Wi-Fi**
 

@@ -15,7 +15,7 @@ Explore hardware details, custom software, and usage instructions.
 Sections
 ########
 
-- **Getting Started:** This section covers the minimum requirements for using the robot, setting up a workstation (a PC for connecting, programming, and driving the robots). As well as a step-by-step guides from unboxing to driving each of our robot models.
+- **Getting Started:** This section shows what you need to set up your robot and PC. Then follow step-by-step guides from unboxing to driving your Magni Robots.
 - **Magni 6 Models:** This section introduces the Magni Gen 6 robot models. It includes overview, common use cases, build specifications, custom software images, included sensors, and optional add-ons.
 - **Software:** This section details the robot's software, including custom images, their specifications, and tutorials for using our custom software.
 - **Hardware:** This section describes the robot's hardware components, including sensors, batteries and modification guidelines, so people can modify the harware without interrupting with the base systems of the robot.. 
@@ -27,15 +27,14 @@ Sections
 
    getting_started/requirements
    getting_started/workstation
-   getting_started/getting_started_mini
+   getting_started/models/main_getting_started_models
    
 .. toctree::
    :maxdepth: 2
    :caption: Magni 6 Models
-
-   magni6_models/magni6_mini
-   magni6_models/magni6_medium
-   magni6_models/magni6_large
+   
+   magni6_models/models/main_magni_models
+   magni6_models/full_assembly/main_assembly_models
 
 .. toctree:: 
    :maxdepth: 2
@@ -49,21 +48,18 @@ Sections
    :maxdepth: 2
    :caption: Hardware
 
-   hardware/raspberry_pi
-   hardware/raspberry_pi_camera
-   hardware/lidars
-   hardware/batteries
+   hardware/beginner/main_beginner_hardware
+   hardware/advanced/main_advanced_hardware
 
 .. TODO: FIX THE ISSUE WHERE THE BATTERIES DOCS DISSAPEAR WHEN YOU ENTER HARDWARE PART 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Beginner Projects for Magni Robots
+   :caption: Projects for Magni Robots
    
-   projects/ezmap
-   projects/obstacle_avoidance
-   projects/telepresence
-
+   projects/mini/main_projects_mini
+   projects/medi/main_projects_medi
+  
 .. toctree::
    :maxdepth: 1
    :caption: Examples of .MDs

@@ -41,7 +41,7 @@ Key features include:
     - Ideal for beginers and advanced users alike.
 
 
-**Get Started**: :doc:`../getting_started/getting_started_mini`
+**Get Started**: :doc:`../../getting_started/models/getting_started_mini`
 
 
 Build Specifications
