@@ -1,5 +1,5 @@
-Full Assembly Guides for the Robots (per Model)
-===============================================
+Full Assembly Guide (per Model)
+===============================
 
 In this section we will be adding the information regarding the full assembly of all of the robots. 
 

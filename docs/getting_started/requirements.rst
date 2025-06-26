@@ -20,7 +20,7 @@ You can buy your own robot from our website: `Ubiquity Robotics Store <https://w
 ---------------------
 The robots require two 12V batteries to operate. We recommend lead-acid batteries. 
 Make sure they are safely mounted and connected as per your model's guidelines. 
-You can read details regarding the batteries on this page: :doc:`../hardware/batteries`
+You can read details regarding the batteries on this page: :doc:`../hardware/beginner/batteries`
 
 
 .. TODO: Add more details if different Mini and Medi use different batteries. 

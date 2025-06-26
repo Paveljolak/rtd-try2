@@ -1,5 +1,5 @@
-ROS Workstation Setup For Magni Robots
-======================================
+ROS Workstation Setup
+=====================
 
 A **ROS Workstation** is a desktop or laptop computer with a full ROS (Robot Operating System) setup that connects to your robot over the network. 
 It allows you to:
