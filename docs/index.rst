@@ -7,6 +7,16 @@ Learn how to assemble, connect, drive, and create custom projects with our robot
 Each robot model has a dedicated page with a getting started guide, as well as a full assembly guide. 
 Explore hardware details, custom software, and usage instructions.
 
+.. note::
+   This documentation is designed with beginners in mind, but we haven't forgotten advanced users. 
+   You'll find sections marked as "Beginner" and "Advanced" throughout. 
+   
+   Here's what to expect:
+
+   - **Beginner**: Offers friendly, step-by-step guides and tutorials to help new users get started with ease.
+   - **Advanced**: Provides detailed, technical information on componenets or topics, perfect for experianced users seeking specifics.
+  
+
 Sections
 ########
 
@@ -30,7 +40,6 @@ Sections
    getting_started/workstation
    getting_started/models/main_getting_started_models
    
-
 
 .. _magni6_models_section: 
 
