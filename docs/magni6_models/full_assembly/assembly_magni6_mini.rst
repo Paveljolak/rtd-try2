@@ -217,8 +217,8 @@ With raw html :
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
-        <img src="_static/magni-mini/assembly/second_motor_wheel_connector.png" alt="Sliding motor wheel second connector through opening pic 1" style="width: 50%; height: auto;">
-        <img src="_static/magni-mini/assembly/second_motor_wheel_connector_added.png" alt="Sliding motor wheel second connector through opening pic 2" style="width: 50%; height: 50%">
+        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector.png" alt="Sliding motor wheel second connector through opening pic 1" style="width: 50%; height: auto;">
+        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector_added.png" alt="Sliding motor wheel second connector through opening pic 2" style="width: 50%; height: 50%">
     </div>
   </div>
 
