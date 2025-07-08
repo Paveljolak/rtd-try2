@@ -180,6 +180,17 @@ Step-by-Step Guide
 
 |
 
+ 
+
+Raw html fix number idk man:
+
+.. raw:: html
+
+   <div style="display: flex; gap: 10px;">
+     <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector.png" alt="Sliding motor wheel connector through opening pic 1" style="width: 50%; height: auto;">
+     <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector_added.png" alt="Sliding motor wheel connector through opening pic 2" style="width: 50%; height: auto;">
+   </div>
+
 
 4. Grab the second connector and push it through (mind the orientation).
 
