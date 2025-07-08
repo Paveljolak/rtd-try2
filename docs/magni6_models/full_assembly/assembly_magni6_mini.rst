@@ -1,23 +1,20 @@
 Asembly of Magni 6 Mini
 =======================
 
-.. In-file css: 
-.. This is for formatting the double images, for some reason they do not work with the raw:html.
+---- 
 
-.. rst-class:: image-grid
-   :local:
-   div.image-grid {
-       display: flex;
-       gap: 10px;
-       justify-content: center;
-       align-items: center;
-       height: 100%;
-   }
-   div.image-grid img {
-       width: 50%;
-       height: auto;
-       vertical-align: middle;
-   }
+.. raw:: html
+
+  <div class="rst-content">
+     <div style="display: flex; gap: 10px;">
+        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector.png" alt="Sliding motor wheel connector through opening pic 1" style="width: 50%; height: auto;">
+        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector_added.png" alt="Sliding motor wheel connector through opening pic 2" style="width: 50%; height: auto;">
+     </div>
+  </div>
+
+| 
+
+---- 
 
 This guide provides step-by-step instructions to build the Magni 6 Mini.
 
@@ -143,18 +140,17 @@ Step-by-Step Guide
     :align: center
 |
 
-.. container:: image-grid
+.. raw:: html
 
-   .. image:: /_static/magni-mini/assembly/bearing_adding.png
-      :alt: Bearing adding with rubber.
-      :width: 46.2%
-
-   .. image:: /_static/magni-mini/assembly/bearing_screwing.png
-      :alt: Bearing added and screwing.
-      :width: 45%
-
+  <div class="rst-content">
+     <div style="display: flex; gap: 10px;">
+        <img src="/rtd-try2//_static/magni-mini/assembly/bearing_adding.png" alt="Bearing adding with rubber." style="width: 50%; height: auto;">
+        <img src="/rtd-try2//_static/magni-mini/assembly/bearing_screwing.png" alt="Bearing added and screwing." style="width: 50%; height: auto;">
+     </div>
+  </div>
 
 |
+
 
 2. Take MOTOR WHEEL and BASE. 
 
@@ -224,20 +220,7 @@ With raw html :
 
 |
 
----- 
 
-.. raw:: html
-
-  <div class="rst-content">
-     <div style="display: flex; gap: 10px;">
-        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector.png" alt="Sliding motor wheel connector through opening pic 1" style="width: 50%; height: auto;">
-        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector_added.png" alt="Sliding motor wheel connector through opening pic 2" style="width: 50%; height: auto;">
-     </div>
-  </div>
-
-| 
-
----- 
 
 5. Take screws M4x8 ISO 7380 and with your fingers thread the bolt in just slightly, until it catches. Then turn the BASE on the side (so the wheel is looking up on the table; that way is more easy to thread in the second bolt). Take the second bolt and thread it slightly. Finally thread in the last bolt. 
 
