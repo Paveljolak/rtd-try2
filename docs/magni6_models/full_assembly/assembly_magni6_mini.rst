@@ -163,22 +163,18 @@ Step-by-Step Guide
 
 3. Grab motor wheel small connector and push it through the oppening (slide it diagonally)
 
-.. container:: image-grid
+.. raw:: html
 
-   .. image:: /_static/magni-mini/assembly/motor_wheel_connector.png
-      :alt: Sliding motor wheel connector through opening pic 1
-      :width: 50% 
-
-   .. image:: /_static/magni-mini/assembly/motor_wheel_connector_added.png
-      :alt: Sliding motor wheel connector through opening pic 2
-      :width: 35%
-
+  <div class="rst-content">
+     <div style="display: flex; gap: 10px;">
+        <img src="/rtd-try2//_static/magni-mini/assembly/motor_wheel_connector.png" alt="Sliding motor wheel connector through opening pic 1." style="width: 50%; height: auto;">
+        <img src="/rtd-try2//_static/magni-mini/assembly/motor_wheel_connector_added.png" alt="Sliding motor wheel connector through opening pic 2." style="width: 50%; height: auto;">
+     </div>
+  </div>
 
 |
 
- 
-
-Raw html fix number idk man:
+4. Grab the second connector and push it through (mind the orientation).
 
 .. raw:: html
 
@@ -190,36 +186,6 @@ Raw html fix number idk man:
   </div>
 
 | 
-
-4. Grab the second connector and push it through (mind the orientation).
-
-
-.. container:: 
-
-   .. image:: /_static/magni-mini/assembly/second_motor_wheel_connector.png
-      :alt: Sliding motor wheel second connector through opening pic 1
-      :width: 50% 
-
-   .. image:: /_static/magni-mini/assembly/second_motor_wheel_connector_added.png
-      :alt: Sliding motor wheel second connector through opening pic 2
-      :width: 46%
-
-
-
-With raw html : 
-
-
-.. raw:: html
-
-  <div class="rst-content">
-    <div style="display: flex; gap: 10px;">
-        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector.png" alt="Sliding motor wheel second connector through opening pic 1" style="width: 50%; height: auto;">
-        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector_added.png" alt="Sliding motor wheel second connector through opening pic 2" style="width: 50%; height: 50%">
-    </div>
-  </div>
-
-|
-
 
 
 5. Take screws M4x8 ISO 7380 and with your fingers thread the bolt in just slightly, until it catches. Then turn the BASE on the side (so the wheel is looking up on the table; that way is more easy to thread in the second bolt). Take the second bolt and thread it slightly. Finally thread in the last bolt. 

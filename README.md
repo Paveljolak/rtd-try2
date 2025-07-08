@@ -43,3 +43,6 @@ sphinx-autobuild . _build/html # autobuilds the site on save. It serves it local
 # [sphinx-autobuild] Serving on http://127.0.0.1:8000
 
 ```
+
+
+> **Note:** Some images will show locally some will not. This is because we are hosting on GitHub pages, GitHub may look for the pictures in some other place and the relative path might not work when deployed. This is the case when having multiple in-line pictures.
