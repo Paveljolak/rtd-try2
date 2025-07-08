@@ -11,12 +11,13 @@ Asembly of Magni 6 Mini
        gap: 10px;
        justify-content: center;
        align-items: center;
+       height: 100%;
    }
    div.image-grid img {
        width: 50%;
        height: auto;
+       vertical-align: middle;
    }
-
 
 This guide provides step-by-step instructions to build the Magni 6 Mini.
 
@@ -142,8 +143,6 @@ Step-by-Step Guide
     :align: center
 |
 
-Adding the images with a container:
-
 .. container:: image-grid
 
    .. image:: /_static/magni-mini/assembly/bearing_adding.png
@@ -157,26 +156,6 @@ Adding the images with a container:
 
 |
 
-Final try - Raw html: 
-
-.. raw:: html
-
-   <div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
-     <img src="/_static/magni-mini/assembly/bearing_adding.png" alt="Bearing adding with rubber." style="width: 45%; height: 45%; ">
-     <img src="/_static/magni-mini/assembly/bearing_screwing.png" alt="Bearing added and screwing." style="width: 45%; height: 45%; ">
-   </div>
-
-
-.. .. raw:: html
-
-..    <div style="display: flex; gap: 10px;">
-..      <img src="/_static/magni-mini/assembly/bearing_adding.png" alt="Bearing adding with rubber." style="width: 50%; height: auto;">
-..      <img src="/_static/magni-mini/assembly/bearing_screwing.png" alt="Bearing added and screwing." style="width: 50%; height: auto;">
-..    </div>
-
-|
-
-
 2. Take MOTOR WHEEL and BASE. 
 
 .. image:: /_static/magni-mini/assembly/motor_wheel_and_base.png
@@ -188,17 +167,37 @@ Final try - Raw html:
 
 3. Grab motor wheel small connector and push it through the oppening (slide it diagonally)
 
-.. raw:: html
+.. container:: image-grid
 
-   <div style="display: flex; gap: 10px;">
-     <img src="/_static/magni-mini/assembly/motor_wheel_connector.png" alt="Sliding motor wheel connector through opening pic 1" style="width: 50%; height: auto;">
-     <img src="/_static/magni-mini/assembly/motor_wheel_connector_added.png" alt="Sliding motor wheel connector through opening pic 2" style="width: 50%; height: 50%">
-   </div>
+   .. image:: /_static/magni-mini/assembly/motor_wheel_connector.png
+      :alt: Sliding motor wheel connector through opening pic 1
+      :width: 50% 
+
+   .. image:: /_static/magni-mini/assembly/motor_wheel_connector_added.png
+      :alt: Sliding motor wheel connector through opening pic 2
+      :width: 35%
+
 
 |
 
 
 4. Grab the second connector and push it through (mind the orientation).
+
+
+.. container:: 
+
+   .. image:: /_static/magni-mini/assembly/second_motor_wheel_connector.png
+      :alt: Sliding motor wheel second connector through opening pic 1
+      :width: 50% 
+
+   .. image:: /_static/magni-mini/assembly/second_motor_wheel_connector_added.png
+      :alt: Sliding motor wheel second connector through opening pic 2
+      :width: 46%
+
+
+
+With raw html : 
+
 
 .. raw:: html
 
