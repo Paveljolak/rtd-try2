@@ -29,7 +29,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_use_smartypants = False
+html_baseurl = "https://paveljolak.github.io/rtd-try2"
 
 # add sourcecode to path
 import sys, os
