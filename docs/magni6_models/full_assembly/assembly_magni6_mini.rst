@@ -127,10 +127,9 @@ Step-by-Step Guide
 |
 
 .. raw:: html
-
    <div style="display: flex; gap: 10px;">
      <img src="/_static/magni-mini/assembly/bearing_adding.jpeg" alt="Bearing adding with rubber." style="width: 50%; height: auto;">
-     <img src="/_static/magni-mini/assembly/bearing_screwing.jpeg" alt="Bearing added and screwing." style="width: 50%; height: 50%">
+     <img src="/_static/magni-mini/assembly/bearing_screwing.jpeg" alt="Bearing added and screwing." style="width: 50%; height: auto;">
    </div>
 
 |
@@ -145,11 +144,9 @@ Step-by-Step Guide
 
 |
 
-
 3. Grab motor wheel small connector and push it through the oppening (slide it diagonally)
 
 .. raw:: html
-
    <div style="display: flex; gap: 10px;">
      <img src="/_static/magni-mini/assembly/motor_wheel_connector.png" alt="Sliding motor wheel connector through opening pic 1" style="width: 50%; height: auto;">
      <img src="/_static/magni-mini/assembly/motor_wheel_connector_added.png" alt="Sliding motor wheel connector through opening pic 2" style="width: 50%; height: 50%">
