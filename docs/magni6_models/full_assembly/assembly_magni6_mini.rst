@@ -18,7 +18,6 @@ Buiild Requirements
 The following tables list the Magni 6 Mini BOM. Verify all required materials are present before starting, and order if missing. 
 Similar componenets may substitute, but using the specified BOM items is recommended to prevent build issues.
 
-
 .. list-table::
    :header-rows: 1
 
@@ -126,6 +125,22 @@ Step-by-Step Guide
     :align: center
 |
 
+Adding the images with a container:
+
+.. container:: image-grid
+
+   .. image:: /_static/magni-mini/assembly/bearing_adding.jpeg
+      :alt: Bearing adding with rubber.
+      :width: 50%
+
+   .. image:: /_static/magni-mini/assembly/bearing_screwing.jpeg
+      :alt: Bearing added and screwing.
+      :width: 50%
+
+
+
+Old way with raw:html: 
+
 .. raw:: html
    <div style="display: flex; gap: 10px;">
      <img src="/_static/magni-mini/assembly/bearing_adding.jpeg" alt="Bearing adding with rubber." style="width: 50%; height: auto;">
@@ -147,6 +162,7 @@ Step-by-Step Guide
 3. Grab motor wheel small connector and push it through the oppening (slide it diagonally)
 
 .. raw:: html
+
    <div style="display: flex; gap: 10px;">
      <img src="/_static/magni-mini/assembly/motor_wheel_connector.png" alt="Sliding motor wheel connector through opening pic 1" style="width: 50%; height: auto;">
      <img src="/_static/magni-mini/assembly/motor_wheel_connector_added.png" alt="Sliding motor wheel connector through opening pic 2" style="width: 50%; height: 50%">
