@@ -160,8 +160,8 @@ Raw html:
 .. raw:: html
 
    <div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
-     <img src="_static/magni-mini/assembly/bearing_adding.png" alt="Bearing adding with rubber." style="width: 45%; height: auto; vertical-align: middle;">
-     <img src="_static/magni-mini/assembly/bearing_screwing.png" alt="Bearing added and screwing." style="width: 45%; height: auto; vertical-align: middle;">
+     <img src="/_static/magni-mini/assembly/bearing_adding.png" alt="Bearing adding with rubber." style="width: 45%; height: 45%; ">
+     <img src="/_static/magni-mini/assembly/bearing_screwing.png" alt="Bearing added and screwing." style="width: 45%; height: 45%; ">
    </div>
 
 
