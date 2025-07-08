@@ -1,6 +1,23 @@
 Asembly of Magni 6 Mini
 =======================
 
+.. In-file css: 
+.. This is for formatting the double images, for some reason they do not work with the raw:html.
+
+.. rst-class:: image-grid
+   :local:
+   div.image-grid {
+       display: flex;
+       gap: 10px;
+       justify-content: center;
+       align-items: center;
+   }
+   div.image-grid img {
+       width: 50%;
+       height: auto;
+   }
+
+
 This guide provides step-by-step instructions to build the Magni 6 Mini.
 
 .. note::
@@ -127,20 +144,6 @@ Step-by-Step Guide
 
 Adding the images with a container:
 
-.. rst-class:: image-grid
-   :local:
-   div.image-grid {
-       display: flex;
-       gap: 10px;
-       justify-content: center;
-       align-items: center;
-   }
-   div.image-grid img {
-       width: 50%;
-       height: auto;
-   }
-
-
 .. container:: image-grid
 
    .. image:: /_static/magni-mini/assembly/bearing_adding.png
@@ -154,8 +157,7 @@ Adding the images with a container:
 
 |
 
-
-Raw html: 
+Final try - Raw html: 
 
 .. raw:: html
 
