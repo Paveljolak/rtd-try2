@@ -127,25 +127,50 @@ Step-by-Step Guide
 
 Adding the images with a container:
 
+.. rst-class:: image-grid
+   :local:
+   div.image-grid {
+       display: flex;
+       gap: 10px;
+       justify-content: center;
+       align-items: center;
+   }
+   div.image-grid img {
+       width: 50%;
+       height: auto;
+   }
+
+
 .. container:: image-grid
 
-   .. image:: /_static/magni-mini/assembly/bearing_adding.jpeg
+   .. image:: /_static/magni-mini/assembly/bearing_adding.png
       :alt: Bearing adding with rubber.
-      :width: 50%
+      :width: 46.2%
 
-   .. image:: /_static/magni-mini/assembly/bearing_screwing.jpeg
+   .. image:: /_static/magni-mini/assembly/bearing_screwing.png
       :alt: Bearing added and screwing.
-      :width: 50%
+      :width: 45%
 
 
+|
 
-Old way with raw:html: 
+
+Raw html: 
 
 .. raw:: html
-   <div style="display: flex; gap: 10px;">
-     <img src="/_static/magni-mini/assembly/bearing_adding.jpeg" alt="Bearing adding with rubber." style="width: 50%; height: auto;">
-     <img src="/_static/magni-mini/assembly/bearing_screwing.jpeg" alt="Bearing added and screwing." style="width: 50%; height: auto;">
+
+   <div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+     <img src="_static/magni-mini/assembly/bearing_adding.png" alt="Bearing adding with rubber." style="width: 45%; height: auto; vertical-align: middle;">
+     <img src="_static/magni-mini/assembly/bearing_screwing.png" alt="Bearing added and screwing." style="width: 45%; height: auto; vertical-align: middle;">
    </div>
+
+
+.. .. raw:: html
+
+..    <div style="display: flex; gap: 10px;">
+..      <img src="/_static/magni-mini/assembly/bearing_adding.png" alt="Bearing adding with rubber." style="width: 50%; height: auto;">
+..      <img src="/_static/magni-mini/assembly/bearing_screwing.png" alt="Bearing added and screwing." style="width: 50%; height: auto;">
+..    </div>
 
 |
 
