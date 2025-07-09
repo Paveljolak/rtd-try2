@@ -1,37 +1,20 @@
 Asembly of Magni 6 Mini
 =======================
 
----- 
-
-.. raw:: html
-
-  <div class="rst-content">
-     <div style="display: flex; gap: 10px;">
-        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector.png" alt="Sliding motor wheel connector through opening pic 1" style="width: 50%; height: auto;">
-        <img src="/rtd-try2/_static/magni-mini/assembly/second_motor_wheel_connector_added.png" alt="Sliding motor wheel connector through opening pic 2" style="width: 50%; height: auto;">
-     </div>
-  </div>
-
-| 
-
----- 
-
-This guide provides step-by-step instructions to build the Magni 6 Mini.
+This guide provides clear, step-by-step instructions for assembling the Magni 6 Mini robot.
 
 .. note::
-    If any parts listed are missing, check the Magni BOM for ordering details.
-    If unavailable online, contact: `Ubiquity Robotics support <support@ubiquityrobotics.com>`_ for replacements.
+    If any parts are missing, refer to the Magni BOM for ordering details. 
+    For unavailable items, contact `Ubiquity Robotics support <support@ubiquityrobotics.com>`_.
 
 [TODO: We will add the link to the Magni 6 BOM order details here.]
 
 .. TODO: Add details regarding the ordering of the items, and from where they can be ordered.
 
+Build Requirements
+##################
 
-Buiild Requirements
-###################
-
-The following tables list the Magni 6 Mini BOM. Verify all required materials are present before starting, and order if missing. 
-Similar componenets may substitute, but using the specified BOM items is recommended to prevent build issues.
+Before starting, ensure all required components are available. The tables below list the Magni 6 Mini Bill of Materials (BOM). Use specified BOM items to avoid assembly issues, though simiral components may be substituted if necessary.
 
 .. list-table::
    :header-rows: 1
@@ -115,12 +98,12 @@ Similar componenets may substitute, but using the specified BOM items is recomme
 
 
 
-Assembly Guide
-##############
+Assembly Intructions
+####################
 
 
-Final Look
-----------
+Final Assembly Preview
+----------------------
 
 .. image:: /_static/magni-mini/assembly/preview.png
     :alt: Magni 6 Mini Preview
@@ -129,10 +112,13 @@ Final Look
 
 |
 
-Step-by-Step Guide
-------------------
+Step-by-Step Assembly
+---------------------
 
-1. Take BASIC sheet metal part, SINGLE BALL ROLLER BEARING, RUBBER PAD and 2x BOLT M2, 5x5 ((8.8) Zn) ISO 7380 and bolt together - Tighten the hex key using just two fingers - do not overtighten. 
+1. **Attach Roller Bearing to Base**
+
+   Secure the SINGLE BALL ROLLER BEARING and RUBBER PAD to the BASIC sheet metal part using 2x BOLT M2x5 (8.8) Zn) ISO 7380. 
+   Tigthen genrly with a hex key using two-finger pressure to avoid overtightning.
 
 .. image:: /_static/magni-mini/assembly/1_1_chasis.png
     :alt:  Chasis Image
@@ -152,7 +138,9 @@ Step-by-Step Guide
 |
 
 
-2. Take MOTOR WHEEL and BASE. 
+2. **Prepare Motor Wheels**
+
+   Take MOTOR WHEEL and BASE. 
 
 .. image:: /_static/magni-mini/assembly/2_motor_wheel_and_base.png
     :alt: Motor Wheel and Base
@@ -161,7 +149,9 @@ Step-by-Step Guide
 
 |
 
-3. Grab motor wheel small connector and push it through the oppening (slide it diagonally)
+3. **Insert Motor Wheel Connector**
+
+  Slide the small MOTOR WHEEL connector diagonally through the base opening.
 
 .. raw:: html
 
@@ -174,7 +164,9 @@ Step-by-Step Guide
 
 |
 
-4. Grab the second connector and push it through (mind the orientation).
+4. **Insert Second Connector**
+
+  Push the second MOTOR WHEEL connector through the opening, ensure the orientation is correct.
 
 .. raw:: html
 
@@ -187,7 +179,9 @@ Step-by-Step Guide
 
 | 
 
-5. Take screws M4x8 ISO 7380 and with your fingers thread the bolt in just slightly, until it catches. Then turn the BASE on the side (so the wheel is looking up on the table; that way is more easy to thread in the second bolt). Take the second bolt and thread it slightly. Finally thread in the last bolt. 
+5. **Secure Motor Wheel**
+
+   Use 3x BOLT M4x8 ISO 7380. Thread each bolt lightly by hand. Tilt the base so the wheel faces up, then the second and third bolts.
 
 .. raw:: html
 
@@ -200,38 +194,40 @@ Step-by-Step Guide
 
 |
 
-
 .. image:: /_static/magni-mini/assembly/5_3_motor_wheel_screwing_lower.png
     :alt: Screwing motor wheel to the chasis.
     :width: 400px
     :align: center
+
 |
 
+6. **Tighten Motor Wheel Bolts**
 
-
-6. Once all three bolts are partially threaded, use allen key and tighten them firmly.
+  Fully tighten all three bolts with an Allen key.
 
 .. image:: /_static/magni-mini/assembly/6_motor_wheel_tightening.png
     :alt: Tightening motor wheel on the chasis
     :width: 400px
     :align: center
+
 |
 
+7. **Repeat for the Other Side**
 
-
-7. Repeat the same steps for the other side to get the setup on the page below. 
+   Follow steps 2-6 for the second MOTOR WHEEL.
 
 .. image:: /_static/magni-mini/assembly/7_base_with_motor_wheels.png
     :alt: Chasis with Motor Wheels Installed
     :width: 400px
     :align: center
+
 |
 
-8. Take the double-sided thermally conductive tape and cut two strips measuring 70x20 mm. Apply the strips to the FIREWALL as shown in the picture. Then, remove the protective film from the top side of the tape. The surface is now prepared for mounting the motor control board.
+8. **Prepare Firewall**
 
+   Cut two 70x20 mm strips of double-sided thermally conductive tape. Apply to FIREWALL and remvoe protective film.
 
 .. raw:: html
-
 
   <div class="rst-content">
       <div style="display: flex; gap: 10px;">
@@ -243,10 +239,11 @@ Step-by-Step Guide
 
 |
 
-9. Take the Motor Controller Board and carefully press it onto the double sided thermally conductive tape,l as shown in the picture. Ensure that the mounting holes on the Motor Controller Board are aligned concentrically with the slots on the FIREWALL, as ilustrated.
+9. **Mount Motor Controller Board**
+
+  Press the MOTOR BOARD onto the tape, aligning mounting holes with FIREWALL slots.
 
 .. raw:: html
-
 
   <div class="rst-content">
       <div style="display: flex; gap: 10px;">
@@ -254,16 +251,17 @@ Step-by-Step Guide
         <img src="/rtd-try2/_static/magni-mini/assembly/9_2_MCB_with_firewall.png" alt="MCB with FIREWALL." style="width: 45%; height: auto;">
       </div>
   </div>
+
 |
 
+10. **Secure Firewall to PCB**
 
-10. Take SPACER L=12 F_M2.5, washer 2.7 and BOLT M2, 5x8 ((8.8) Zn) ISO 7380 and tigthen together FIREWALL and PCB.
+   Use Spacer L=12 F_M2.5, WASHER 2.7, and BOLT M2.5x8 ((8.8) Zn) ISO 7380 to attach FIREWALL to PCB.
 
 .. Warning::
   Do not tighten fully!
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -271,16 +269,18 @@ Step-by-Step Guide
       <img src="/rtd-try2/_static/magni-mini/assembly/10_2_standoffs_added_to_firewall.png" alt="FIREWALL to PCB installation pic 2." style="width: 40%; height: auto">
     </div>
   </div>
+
 |
 
+11. **Add Rubber Pads**
 
-11. Take rubber pad 15x10x3mm and place it between FIREWALL and Motor Controller Board like shown in the picture at the edge of the PCB. The rubber pad acts as a spacer to make sure Motor Control Board is in parallel to FIREWALL surface. Then tighten the bolt gently using only two fingers on the hex key. Place the same rubber pad on the other side near the bottom bolt sloth opening. 
+   Place a 15x10x3 mm RUBBER PAD between FIREWALL and MOTOR BOARD at the PCB edge to ensure the components are parralele to one another. 
+   Tighten bolts gently with two-finger pressure. Repeat for the other side.
 
 .. note::
   The PCB and FIREWALL should be PARALLEL! 
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -288,13 +288,19 @@ Step-by-Step Guide
       <img src="/rtd-try2/_static/magni-mini/assembly/11_2_add_rubber.png" alt="Rubber between MCB and FIREWALL pic 2." style="width: 50%; height: 50%">
     </div>
   </div>
+
 |
 
+12. **Secure Top Side of Firewall**
 
-12. SPACER L=12 F_M2.5, washer 2.7 and BOLT M2.5x8 ((8.8) Zn) ISO 7380 and tighten gently together FIREWALL and PCB on the top side as shown in the picture. Verify again that the PCB is mounted parallel to the surface of the FIREWALL.
+   Use SPACER L=12 F_M2.5, WASHER 2.7, and BOLT M2.5x8 ((8.8) Zn) ISO 7380 to gently tighten the top side of FIREWALL and PCB.
+
+
+.. important:: 
+
+   Check that the components are in parralel to one another.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -305,19 +311,22 @@ Step-by-Step Guide
 |
 
 
-13. Now slide FIREWALL assembly in the BASE. 
+13. **Install Firewall Assembly**
+
+   Slide the FIREWALL assembly into the BASE.
 
 .. image:: /_static/magni-mini/assembly/13_base_with_mcb_and_firewall.png
     :alt: FIREWALL in the base
     :width: 400px
     :align: center
+
 |
 
+14. **Secure Firewall Bottom**
 
-14. Take BOLT 2.5x8 ((8.8) Zn) ISO 7380, washer 2.7 and firmly tighten together bottom of FIREWALL and BASE as shown in picture.
+   Use BOLT M2.5x8 ((8.8) Zn) ISO 7380, WASHER 2.7 to firmly tigthen the bottom of FIREWALL to BASE.  
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -328,13 +337,14 @@ Step-by-Step Guide
 |
 
 
-15. Take BOLT M2.5x8 ((8.8)  Zn) ISO 7380, washer 2.7 and insert the screw and thread it in lightly by allen key.
+15. **Secure Firewall Side**
+
+   Use BOLT M2.5x8 ((8.8) Zn) ISO 7380, and WASHER 2.7. Thread lightly with an Allen key.
 
 .. note:: 
   Final tightening will be done after full assembly.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -342,13 +352,14 @@ Step-by-Step Guide
       <img src="/rtd-try2/_static/magni-mini/assembly/15_2_securing_firewall_from_side2.png" alt="Bolting side of FIREWALL to the BASE pic 2" style="width: 50%; height: 50%">
     </div>
   </div>
+
 |
 
+16. **Connnect Left Motor Wheels**
 
-16. Take left WHEEL MOTOR connector(small) and connect it to the left side of MOTOR BOARD as shown in the picture. Be sure to turn it correctly. 
+   Attach the small left MOTOR WHEEL connector to the left side of the MOTOR BOARD. Be sure to turn it correctly. 
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -360,24 +371,25 @@ Step-by-Step Guide
 |
 
 
-17. Take left WHEEL MOTOR connector(big) and connect it to the MOTOR BOARD as shown in the picture. Be sure to turn it correctly and path the wire as in the picture.
+17. **Connect Large Left Motor Connector**
+
+   Attach the large left MOTOR WHEEL connector to the MOTOR BOARD, orienting and routing the wire as shown. 
 
 .. image:: /_static/magni-mini/assembly/17_motor_controller_upper_connector_connected.png
     :alt: Connecting Motor Wheel Connector to the MCB top 
     :width: 400px
     :align: center
+
 |
 
-
 .. note::
-  The left wheel motor connectors attach to the left side of MCB. And the right wheel motor connectors attach to the right side of the MCB. 
+  Left wheel connectors attach to the left side of the MOTOR BOARD. And the right wheel connectors to the right side.
 
+18. **Route Rigth Motor Wires**
 
-
-18. Ensure that the wiring is routed as shown in the bottom pictures for the right side.
+   Ensure right-side wiring matches the pictures below.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -390,7 +402,6 @@ Step-by-Step Guide
 
 .. raw:: html
 
-
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
       <img src="/rtd-try2/_static/magni-mini/assembly/18_3_motor_wheel_to_MCB_routing3.png" alt="Correct Wiring Motor Wheels to MCB lower pic 1" style="width: 50%; height: auto;">
@@ -400,23 +411,25 @@ Step-by-Step Guide
 
 |
 
+19. **Connect Connection Board**
 
-19. Take CONNECTION BOARD and gently push both connectors on the picture (red circle) together, until fully engaged.
+   Gently push the CONNECTION BOARD connectors (red circle) into the MOTOR BOARD until fully engaged. 
 
 .. image:: /_static/magni-mini/assembly/19_PCB_to_MCB.png
     :alt: Connection board to MCB connection.
     :width: 400px
     :align: center
+
 |
 
+20. **Secure Connection Board**
 
-20. Use four M2.5x8 (8.8) Zn bolts (ISO 7380) to fasten the CONNECTION BOARD and MOTOR CONTROL BOARD together through the standoffs. 
+   Use 4x BOLT M2.5x8 ((8.8) Zn) ISO 7380 to fasten the CONNECTION BOARD to the MOTOR BOARD through standoffs. 
 
 .. note:: 
   Tighten them carefully.
 
 .. raw:: html
-
   
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -427,11 +440,11 @@ Step-by-Step Guide
 
 |
 
+21. **Connect Ground Wire**
 
-21. Take wire harness and connect ground female spade crimp terminal to the ground pin on the MOTOR CONTROL BOARD.
+   Attach the ground female spade crimp terminal from the wire harness to the ground pin on the MOTOR BOARD.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -444,10 +457,11 @@ Step-by-Step Guide
 
 
 
-22. Take Raspberry Pi 5 and cover the PCU with double-sided thermally conductive tape. Next, remove the protective film from the double sided thermal tape.
+22. **Prepare Rasbperr Pi 5**
+
+   Cover the Raspberry Pi 5 CPU with double-sided thermally conductive tape and remove the protective film from the tape.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -458,29 +472,33 @@ Step-by-Step Guide
 
 |
 
+23. **Gather Heatsink Components**
 
-23. Take HEATSINK, 2x PCB PUSH PIN WITH SPRING and RPI5.
+   Take HEATSINK, 2x PCB PUSH PIN WITH SPRING, and the previosly prepared Raspberry Pi 5.
 
 .. image:: /_static/magni-mini/assembly/23_rpi5_and_heatsink.png
     :alt: HEATSINK and RPI5
     :width: 600px
     :align: center
+
 |
 
+24. **Attach Heatsink**
 
-24. Position HEATSINK on the RPI5 as shown in the picture and push through two PCB PUSH PINS WITH SPRING as shown in the picture.
+   Position HEATSINK on Raspberry Pi 5 as shown in the picture and secure with 2x PCB PUSH PINS WITH SPRING.
 
 .. image:: /_static/magni-mini/assembly/24_rpi5_with_added_heatsink1.png
     :alt: HEATSINK on RPI5.
     :width: 400px
     :align: center
+
 |
 
+25. **Connect Raspberry Pi to Connection Board** 
 
-25. Take RPI assembly and connect RPI HAT & GRIPO INTERFACE connector together with CONNECTION BOARD connector as shown in the picture.
+   Connect the Raspberry Pi HAT & GRIPO INTERFACE connector together with CONNECTION BOARD as shown in the picture. 
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -491,8 +509,10 @@ Step-by-Step Guide
 
 |
 
+26. **Secure Raspberry Pi (Part 1)**
 
-26. Check that the surface of the heatsink is making proper contact with the base sheet metal. Ensure that all parts are correctly aligned, leaving the USB and Ethernet ports fully accessible. Then take M2.5x8 (8.8) Zn bolt (ISO 7380), washer 2.7 and gently tighten one screw.
+   Ensure the HEATSINK contacts the BASE metal sheet and USB/Ethernet ports are accesible. 
+   Use 1x BOLT M2.5x8 ((8.8) Zn) ISO 7380 with WASHER 2.7 and tigthen gently.
 
 .. warning:: 
   Do not tighten the screw fully. 
@@ -509,10 +529,12 @@ Step-by-Step Guide
 |
 
 
-27. Inster other bolt M2.5x8 (8.8) Zn (ISO 7380), with washer and gently press on RPI5 so that USB and ETHERNET ports stay centered in sloth like on picture.
+27. **Secure Raspberry Pi (Part 2)**
+
+   Insert another BOLT M2.5x8 ((8.8) Zn) ISO 7380 with WASHER 2.7. 
+   Press Raspberry Pi 5 to center USB/Ethernet ports in the slot, then tigthen gently.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -523,11 +545,11 @@ Step-by-Step Guide
 
 |
 
+28. **Secure Firewal Bottom**
 
-28. Take two M2.5x8 (8.8) Zn bolt (ISO 7380) with washers 2.7 and carefully fasten together FIREWALL with BASE on the bottom of the robot.
+   Use 2x BOLT M2.5x8 ((8.8) Zn) ISO 7380 with WASHER 2.7 to fasten FIREWALL to BASE at the bottom of the robot.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -539,11 +561,12 @@ Step-by-Step Guide
 |
 
 
-29. Position the ON/OFF rocker switch according to the picture and firmly press it onto the slot. 
+29. **Install On/Off Switch**
+
+   Press the ON/OFF ROCKER SWITCH into the slot. Make sure you follow the picture bellow.
 
 .. important:: 
   Pay attention to the position of the dot on the switch. The dot needs to be on the bottom.
-
 
 .. raw:: html
 
@@ -556,45 +579,55 @@ Step-by-Step Guide
 
 |
 
-30. Take 5.5 x 2.1 mm DC POWER CHARGER and push it through opening like on the picture.
+30. **Install DC Power Charger**
+
+   Push the 5.5 x 2.1 mm DC POWER CHARGER through the opening as shown in the picture below. 
 
 .. image:: /_static/magni-mini/assembly/30_dc_charger_adding_to_base.png
     :alt: Adding DC POWER CHARGER to the BASE 
     :width: 400px
     :align: center
+
 |
 
-
-31. Align flaat part of the charger with the part of the slot and push it through sheet metal like on picture shown.
+31. **Align DC Charger**
+   Align the first flat part of the charger with the slot and push through the sheet metal as shown in the picture below.
 
 .. image:: /_static/magni-mini/assembly/31_dc_charger_adding_to_base_flat.png
     :alt: Position charger correctly.
     :width: 400px
     :align: center
+
 |
 
-
-32. Take POWER CHARGER's nut and put it on the connector side.
+32. **Secure DC Charger**
+   
+   Attach the nut to the charger connector.
 
 .. image:: /_static/magni-mini/assembly/32_dc_charger_adding_nut_to_charger.png
     :alt: Adding the NUT to the power charger.
     :width: 400px
     :align: center
+
 |
 
-33. Ensure that the connector is properly aligned, with the flat side matching the flat surface of the cutout. Then hand-tighten the nut to secure it.
+33. **Tighten DC Charger**
+
+   Ensure that the connector is properly aligned as shown in the picture. 
+   Then hand-tighten the nut.
 
 .. image:: /_static/magni-mini/assembly/33_dc_charger_added.png
     :alt: Aligning the nut to the charger and hand-tighten it
     :width: 400px
     :align: center
+
 |
 
+34. **Prepare Front Hatch**
 
-34. Take FRONT hatch of the Robot and CAMERA 3 WIDE.
+   Take FRONT COVER of the Robot and CAMERA 3 WIDE.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -606,10 +639,12 @@ Step-by-Step Guide
 |
 
 
-35. Use 4 BOLTS M2.5x5 ((8.8) Zn) ISO 7380 to tighten CAMERA to FRONT. Tigthen with an allen key using two finger pressure.
+35. **Attach Camera to Front Cover**
+
+   Use 4x BOLT M2.5 ((8.8) Zn) ISO 7380 to secure the CAMERA to the FRONT COVER.
+   Tigthen with Allen key using two-finger pressure. 
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -620,20 +655,26 @@ Step-by-Step Guide
 
 |
 
-36. Take 3 BOLTS M2x5 ((8.8) Zn) ISO 7380 to tighten the second CAMERA to FRONT. Tighten with an allen key using two finger pressure.
+36. **(OPTIONAL) Second Camera**
 
-
-We are shipping the robot with a single camera. The user can add a second one, or they can switch the position of the shipped camera.
+   Use 4x BOLT M2.5 ((8.8) Zn) ISO 7380 to attach a second CAMERA to the FRONT COVER, tigthening with two-finger pressure.
+   The robot ships with one camera. You may add a second or reposition the first for a different angle.
 
 .. TODO: Add image here for switching the position of them camera.
 
 .. TODO: Add image here for adding a secondary camera.
 
 
-37. Firmly insert the cover caps into the FRONT by applying hand pressure.
+37. **Install Cover Caps on Front** 
+   Press COVER CAPS firmly into the FRONT COVER by hand.
+
+.. tip:: 
+  Use steady hand pressure to secure the caps.
+
+.. warning::
+  Try to avoid pinching your fingers while pressing the caps. As this may lead to some pain.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -644,19 +685,24 @@ We are shipping the robot with a single camera. The user can add a second one, o
 
 |
 
-38. Just like on the FRONT sheet metal, insert the cover caps into the TOP COVER. Next, place the LIDAR onto the top surface of the TOP COVER and secure it with M2x14 bolts using Allen key. Tighten gently using two-finger pressure.
+38. **Preparing Top Cover and LIDAR**
+
+   Just like for the FRONT COVER, insert COVER CAPS into the TOP COVER. Secure LIDAR to the TOP COVER with 2x BOLT M2x14 (8.8 Zn) ISO 7380, tigthening gently with two-figer pressure.
 
 .. image:: /_static/magni-mini/assembly/38_top_hatch_with_lidar.png
     :alt: Aligning the nut to the charger and hand-tighten it
     :width: 400px
     :align: center
+
 |
 
-39. Take the BATTERY and position it in the BASE according to the picture. Pay close attention to its orientation.
+39. **Install First Battery**
+
+   Position the first BATTERY in the BASE according to the pictures below. 
+   Pay close attention to its orientation.
 
 .. raw:: html
 
- 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
       <img src="/rtd-try2/_static/magni-mini/assembly/39_1_batteries_adding_first_one1.png" alt="Adding first battery to the robot upper pic 1." style="width: 50%; height: auto;">
@@ -668,7 +714,6 @@ We are shipping the robot with a single camera. The user can add a second one, o
 
 .. raw:: html
 
-
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
       <img src="/rtd-try2/_static/magni-mini/assembly/39_3_batteries_adding_first_one3.png" alt="Adding first battery to the robot lower pic 1." style="width: 50%; height: auto;">
@@ -678,11 +723,11 @@ We are shipping the robot with a single camera. The user can add a second one, o
 
 |
 
+40. **Install Second Battery**
 
-40. Use BATTERY HOLDER to put the second BATTERY in the BASE as shown in the picture.
+   Use the BATTERY HOLDER to secure the second BATTERY in the BASE as shown in the picture.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -693,21 +738,25 @@ We are shipping the robot with a single camera. The user can add a second one, o
 
 |
 
-41. Be careful with the wires.
+41. **Properly Adding the Second Battery** 
+   
+   Be careful with the wires.
 
 .. image:: /_static/magni-mini/assembly/41_batteries_minding_the_wires.png
     :alt: Adding second battery, being carefull with the wires.
     :width: 400px
     :align: center
+
 |
 
-42. Take the yellow-green wire and attach it like shown in the picture.
+42. **Connect Batteries in Series**
+
+   Attach the yellow-green wire: red connector to the RED spade of the first battery, black connector to the BLACK spade of the second battery.
 
 .. note:: 
   Red connector from the wire goes to the RED spade of the first battery. Black connector of the wire goes to the black spade of the second battery.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -718,12 +767,12 @@ We are shipping the robot with a single camera. The user can add a second one, o
 
 |
 
+43. **Connect Black Spade to Battery**
 
-43. Grab the wire harness and connect the black female spade terminal to the - battery pin as shown in the picture. Press it in firmly.
-
+   Take the wire harness and connect the black female spade terminal to the negative battery pin as shown in the picture. 
+   Press it in firmly.
 
 .. raw:: html
-
 
   <div class="rst-content">
     <div style="display: flex; gap: 10px;">
@@ -734,7 +783,9 @@ We are shipping the robot with a single camera. The user can add a second one, o
 
 |
 
-44. Grab the only free black female connector and connect it to the GND CONNECTOR BOARD pin like shown in the picture.
+44. **Connect Black Spade to Ground**
+
+   Grab the only free black female spade connector and attach it to the GND pin on the CONNECTOR BOARD as shown in the picture.
 
 .. raw:: html
 
@@ -751,10 +802,13 @@ We are shipping the robot with a single camera. The user can add a second one, o
     :alt: Close up image of the wire to the MCB with green circle.
     :width: 400px
     :align: center
+
 |
 
 
-45. Take the short RED wire with spade connector and connect it firmly to the + pin on the battery like shown in the picture (green circle). Also take the charger connector that is on the harness and connect it with the 5.5 x 2.1 mm DC POWER CHARGER connector (yellow circle).
+45. **Connect Red Spade and Charger**
+
+   Attach the short RED spade connector to the positive battery pin (green circle). Connect the charger connector to the 5.5 x 2.1 mm DC POWER CHARGER (yellow circle). Finally connect the BLACK spade connector to the negative spade of the first battery (blue circle).
 
 .. raw:: html
 
@@ -767,7 +821,9 @@ We are shipping the robot with a single camera. The user can add a second one, o
 
 |
 
-46. Connect the remaining red spade connector to the upper pin of ON/OFF SWITCH.
+46. **Connect Red Spade to Switch**
+
+   Attach the remaining red spade connector to the upper pin of the ON/OFF switch.
 
 .. raw:: html
 
@@ -780,8 +836,10 @@ We are shipping the robot with a single camera. The user can add a second one, o
 
 |
 
+47. **Connect Second Wire Harness**
 
-47. Take the other wire harness (with 3 red spade connectors) shown in the picture below. Take the connector from the circuit, which splits into two separate connectors (green circle) and connect it to the bottom pin of the ON/OFF SWITCH.
+   Use the wire harness with 3 red spade connectors. 
+   Attach the split connector (yellow circle) to the bottom pin of the ON/OFF SWITCH.
 
 .. raw:: html
 
@@ -795,7 +853,9 @@ We are shipping the robot with a single camera. The user can add a second one, o
 |
 
 
-48. Connect the remaining spade connectors and firmly connect one to the 12V PIN ON THE CONNECTOR BOARD and other on 12V pin of the MOTOR CONTROLER BOARD.
+48. **Connect Remaining Spade Connectors**
+
+   Attach on red spade connector to the 12V pin on the CONNECTION BOARD and the other to the 12V pin on the MOTOR BOARD.
 
 .. raw:: html
 
@@ -808,10 +868,12 @@ We are shipping the robot with a single camera. The user can add a second one, o
 
 |
 
-49. All the spade connector need to be firmly connected to the pins. Check all pins again! Route the wire harness as shown in the image bellow. 
+49. **Verify Wiring**
 
-.. Important:: 
-  Check that all pins are firmly connected.
+   Ensure all spade connectors are firmly attached. Route wires as shown.
+
+.. Important::
+  Double-check that all connections (all pins are firmly connected).
 
 .. note:: 
   UPDATE of the WIRE ROUTING is coming soon.
@@ -822,44 +884,54 @@ We are shipping the robot with a single camera. The user can add a second one, o
     :alt: Final wiring. 
     :width: 400px
     :align: center
+
 |
 
+50. **Attach Top and Front Covers**
 
-50. Now take TOP COVER assebmly and FRONT assembly and position them like shown in the picture. Take the scre BOLT M2.5x10 ((8.8) Zn) ISO 7380 with washer and two finger force-tighten it while aligning both plates to the BASE. Repeat the same on the opposite side. Once both screws are in place, tighten them fully using an allen key.
+   Position TOP COVER and FRONT COVER. Use 2x BOLT M2.5x10 ((8.8) Zn) ISO 7380 with washers, tigthening with two-finger pressure. 
+   Fully tigthen with an Allen key once aligned.
 
 .. image:: /_static/magni-mini/assembly/50_top_hatch_securing_from_outside.png
     :alt: Adding and screwing front cover to the robot.
     :width: 400px
     :align: center
+
 |
 
+51. **Secure Front Cover Bottom*
 
-51. Take BOLT M2.5x8 ((8.8) Zn) ISO 7380 with 2.7 washer and with allen key and two finger force tighten the bottom part of the FRONT HATCH.
+   Use BOLT M2.5x8 ((8.8) Zn) ISO 7380 with WASHER 2.7 to tigthen the bottom of the FRONT COVER with two-finger pressure. 
 
 .. image:: /_static/magni-mini/assembly/51_front_hatch_securing_bottom.png
     :alt: Screwing lower part of front cover to the robot.
     :width: 400px
     :align: center
+
 |
 
+52. **(OPTIONAL) Top Cover Securing**
 
-52. Using an M2.5x8 (8.8) Zn Bolt with a 2.7 mm washer, tigthen TOP COVER HATCH with an allen key. Apply only light pressure - approximately  the force of two fingers.
+   Use BOLT M2.5x8 ((8.8) Zn) ISO 7380with WASHER 2.7 to secure the TOP COVER.
+   Tigthen lightly with two-finger pressure. This step is optional    
 
-[ FIXME:  This should be secured from the other side. I think.]
+
+.. note:: 
+  This step is optional, as the cover's weight may be enough to keep itself shut.
+
+
+.. tip:: 
+  If you are opening and closing the TOP COVER repeatedly then we suggest to avoid this step.
+
+
+[ FIXME:  This should be secured from the other side. I think. ]
 
 .. FIXME: Find this out when in the workshop.
-
-.. TODO: Also, add that this should be optional. As the hatch is heavy enough to keep itself closed. And if you are making a lot of changes
-.. it will be hard to screw and unscrew the screws every time.
 
 .. image:: /_static/magni-mini/assembly/52_top_hatch_securing_top.png
     :alt: Screwing the top cover to the robot.
     :width: 400px
     :align: center
+
 |
 
-
-
-.. TODO: Finish this page.
-
-.. TODO: Fix the images to be visible on GitHub.
