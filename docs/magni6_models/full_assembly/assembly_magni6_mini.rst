@@ -22,7 +22,7 @@ Before starting, ensure all required components are available. The tables below 
    * - **Screws BOM**
      - 
    * - BOLT M2,5x14 ((8.8) Zn) ISO 7380
-     - 5
+      - 5
    * - BOLT M2,5x10 ((8.8) Zn) ISO 7380
      - 2
    * - BOLT M2,5x8 ((8.8) Zn) ISO 7380
@@ -899,7 +899,7 @@ Step-by-Step Assembly
 
 |
 
-51. **Secure Front Cover Bottom*
+51. **Secure Front Cover Bottom**
 
    Use BOLT M2.5x8 ((8.8) Zn) ISO 7380 with WASHER 2.7 to tigthen the bottom of the FRONT COVER with two-finger pressure. 
 
