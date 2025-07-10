@@ -44,7 +44,6 @@ Key features include:
     - **Transferable Skills**: Learn on the Magni 6 Mini and apply the same principles to operate all other Magni 6 robot.
     - **User-Friendly**: Suitable for beginners learning robotics and advanced users developing complex applications.
 
-
 |
 
 **Already got a Mini?**
@@ -53,6 +52,9 @@ Dive into our :doc:`../../getting_started/models/getting_started_mini` guide to 
 
 Build Specifications
 --------------------
+
+The Magni 6 Mini is engineered for efficiency and compactness. Below are its core specifications:
+
 ==================  ================================
 **Feature**         **Specification**
 ==================  ================================
@@ -65,9 +67,11 @@ Motor Control       Custom Magni 6 Motor Controller
 Battery             1240 Battery
 ==================  ================================
 
-
 Sensors
 -------
+
+The Magni 6 Mini comes equipped with essential sensors for navigation and interaction. 
+It also has support for additional add-ons to expand functionality. 
 
 **Built-in Sensors**:
     - :doc:`Short-range LIDAR <../../hardware/beginner/lidars>`
@@ -85,19 +89,21 @@ Sensors
 Projects
 --------
 
+Beginner
+########
+
+Get started with these :doc:`beginner-friendly projects <../../projects/mini/beginner/main_beginner_projects>` to explore the Magni 6 Mini's capabilities.
+Always test on safe and obstale-free environment to ensure smooth operation.
+
 .. note::
     Test all projects in an obstacle-free environment to ensure safe operation.
 
 .. warning::
     Testing on a table top can lead to flying robots. Please when driving and testing the robot, keep it on the floor.
 
-Here are three suggested projects for the Magni 6 Mini. Using the short-range Lidar and the Pi Camera:
-
 - **Room Mapping Starter**: Create a 2D map of your environment using the short-range LIDAR and Ez-Map software. Ideal for learning SLAM basics.
 
     See: :doc:`../../projects/mini/beginner/ezmap`
-
-
 
 - **Obstacle Avoidance**: Program the Magni 6 Mini to navigate around obstacles using the short-range LIDAR for proximity detection. Perfect for beginners experimenting with autonomous navigation.
 
@@ -106,5 +112,15 @@ Here are three suggested projects for the Magni 6 Mini. Using the short-range Li
 - **Live Video Patrol**: Use the Raspberry Pi Camera to stream live video, turning the Magni 6 Mini into a mobile surveillance bot. Great for remote monitoring.
 
     See: :doc:`../../projects/mini/beginner/telepresence`
+
+
+Advanced
+########
+
+Ready to take your Magni 6 Mini skills to the next level? 
+
+If you've completed the beginner projects or are familiar with the robot, explore these advanced projects to further improve your robotics expertise.
+
+:doc:`../../projects/mini/advanced/main_advanced_projects`
 
 
