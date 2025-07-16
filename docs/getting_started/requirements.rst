@@ -8,7 +8,7 @@ To get started with any of the Magni 6 robots, you will need the following:
 
 You will need a functional Magni 6 unit (Mini, Medium, Large). Each comes preloaded with our custom image and base firmware.
 
-See the different robots: :doc:`../magni6_models/models/magni6_mini` | :doc:`../magni6_models/models/magni6_medium` | :doc:`../magni6_models/models/magni6_maxi`
+See the different robots: :doc:`../magni6_models/models/magni6_mini` | :doc:`../magni6_models/models/magni6_medi` | :doc:`../magni6_models/models/magni6_maxi`
 
 You can buy your own robot from our website: `Ubiquity Robotics Store <https://www.ubiquityrobotics.com/>`_
 

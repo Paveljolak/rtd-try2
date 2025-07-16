@@ -1,4 +1,4 @@
-Magni6 Large
-============
+Magni6 Maxi
+===========
 
 Coming Soon.

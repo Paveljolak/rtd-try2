@@ -15,7 +15,8 @@ Explore hardware details, custom software, and usage instructions.
 
    - **Beginner**: Offers friendly, step-by-step guides and tutorials to help new users get started with ease.
    - **Advanced**: Provides detailed, technical information on componenets or topics, perfect for experianced users seeking specifics.
-  
+
+   Unmarked sections are written to be accesible and comprehensive to all.
 
 Sections
 ########

@@ -1,7 +1,7 @@
-Magni6 Medium
-===============
+Magni6 Medi
+===========
 
-Describe your Magni6 Medium here...
+Describe your Magni6 Medi here...
 
 
 .. image:: /_static/magni-medi/magni6_medi.jpg
