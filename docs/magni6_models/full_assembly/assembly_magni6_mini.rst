@@ -22,7 +22,7 @@ Before starting, ensure all required components are available. The tables below 
    * - **Screws BOM**
      - 
    * - BOLT M2,5x14 ((8.8) Zn) ISO 7380
-      - 5
+     - 5
    * - BOLT M2,5x10 ((8.8) Zn) ISO 7380
      - 2
    * - BOLT M2,5x8 ((8.8) Zn) ISO 7380
@@ -49,7 +49,7 @@ Before starting, ensure all required components are available. The tables below 
 .. list-table::
    :header-rows: 1
 
-   * - Other BOM
+   * - **Other BOM**
      - 
    * - BASIC
      - 1
