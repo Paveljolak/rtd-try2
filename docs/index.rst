@@ -41,6 +41,13 @@ Sections
    getting_started/workstation
    getting_started/models/main_getting_started_models
    
+.. _magni_sim:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Magni Simulation
+
+   magni_sim/simulation
 
 .. _magni6_models_section: 
 
