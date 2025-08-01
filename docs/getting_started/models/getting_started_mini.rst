@@ -1,8 +1,7 @@
 Getting Started with Magni 6 Mini
 =================================
 
-In this guide you will learn everything you need to unbox, set up, and get your :doc:`../../magni6_models/models/magni6_mini` Robot up and running.
-By following these simple, step-by-step instructions, you'll have a fuly functional, drivable robot ready to explore its surroundings. 
+In this guide you will learn everything you need to unbox, set up, and get your :doc:`../../magni6_models/models/magni6_mini` Robot up and running.  By following these simple, step-by-step instructions, you'll have a fuly functional, drivable robot ready to explore its surroundings. 
 Whether you're new to robots or looking to refresh your skills, we're here to guide you every step of the way.
 
 Before you Begin
@@ -23,7 +22,7 @@ Unboxing
 The Magni 6 Mini will come in a package like this:
 
 
-.. image:: /_static/magni-mini/unboxing_mini.jpg
+.. image:: /_static/magni-mini/getting_started/unboxing_mini.jpg
    :alt: Unboxing Magni 6 Mini
    :width: 400px
    :align: center 
@@ -33,43 +32,45 @@ The Magni 6 Mini will come in a package like this:
 The package includes the following:
     - 1x Magni 6 Mini Robot (pre-assembled)
     
-.. image:: /_static/magni-mini/magni6_mini_unboxed.jpg
-   :alt: Unboxed Magni 6 Mini
-   :width: 400px
-   :align: center 
+    .. image:: /_static/magni-mini/getting_started/magni6_mini_unboxed.jpg
+        :alt: Unboxed Magni 6 Mini
+        :width: 400px
+        :align: center 
 
 |
 
     - 1x Battery Charger (see: :doc:`../../hardware/beginner/batteries` on how to charge.)
-    .. image:: /_static/magni-mini/.jpg
+
+    .. image:: /_static/magni-mini/getting_started/magni_mini_charger.jpg
          :alt: Magni 6 Mini Battery Charger
          :width: 400px
          :align: center 
-
-    .. TODO: Image of the battery Charger.
 
 |
 
 **Initial Inspection Checklist**:
     - Verify all components are included and undamaged.
+
      1. Outside 
 
         - Lidar 
-        .. image:: /_static/magni-mini/small_lidar.jpg
+
+        .. image:: /_static/magni-mini/getting_started/small_lidar.jpg
             :alt: Unboxed Magni 6 Mini
             :width: 400px
             :align: center 
 
         - Chasis
-        .. image:: /_static/magni-mini/.jpg
+
+        .. image:: /_static/magni-mini/getting_started/outside_chasis.jpg
             :alt: Magni 6 Mini Chasis
             :width: 400px
             :align: center 
 
-        .. TODO: Change with image of Mini's chasis
 
         - Motor Wheels
-        .. image:: /_static/magni-mini/motor_wheel.jpg
+
+        .. image:: /_static/magni-mini/getting_started/motor_wheel.jpg
             :alt: Magni 6 Mini Motor Wheels
             :width: 400px
             :align: center 
@@ -78,36 +79,41 @@ The package includes the following:
      2. Inside 
 
        - Motor Controller Board
-       .. image:: /_static/magni-mini/MCB.jpg
+
+       .. image:: /_static/magni-mini/getting_started/.jpg
              :alt: Magni 6 Mini Motor Controller Board
              :width: 400px
              :align: center 
 
        - PCB Connector 
-       .. image:: /_static/magni-mini/.jpg
+
+       .. image:: /_static/magni-mini/getting_started/.jpg
              :alt: Magni 6 Mini PCB Connecter
              :width: 400px
              :align: center 
 
        - Raspberry Pi 
-       .. image:: /_static/magni-mini/.jpg
+
+       .. image:: /_static/magni-mini/getting_started/.jpg
              :alt: Magni 6 Mini Raspberry Pi
              :width: 400px
              :align: center 
 
        - Pi Camera 
-       .. image:: /_static/magni-mini/.jpg
+
+       .. image:: /_static/magni-mini/getting_started/.jpg
              :alt: Magni 6 Mini Raspberry Pi Camera
              :width: 400px
              :align: center 
 
      - All the necessary wires, listed in the images bellow.
-     .. image:: /_static/magni-mini/.jpg
+
+     .. image:: /_static/magni-mini/getting_started/.jpg
          :alt: Magni 6 Mini Wires
          :width: 400px
          :align: center 
 
-   - Verify that the already connected hardware componenets remain securely attached and undamaged.
+   - Verify that the already connected hardware componenets remain securely attached and undamaged. 
 
     .. note:: 
     
@@ -152,7 +158,7 @@ For this guide for exact instructions on how to charge the batteries before addi
 2. **Secure the Battery**:
     - Add the batteries inside the robot.
 
-    .. image:: /_static/magni-mini/.jpg
+    .. image:: /_static/magni-mini/getting_started/batteries_with_no_wires.jpg
         :alt: Batteries inside the robot without wires
         :width: 400px
         :align: center
@@ -162,7 +168,7 @@ For this guide for exact instructions on how to charge the batteries before addi
 
 The wires should be connected like this: 
 
-.. image:: /_static/magni-mini/.jpg
+.. image:: /_static/magni-mini/getting_started/wiring.jpg
     :alt: Wiring Harnesss
     :width: 400px
     :align: center
@@ -177,13 +183,15 @@ You can follow the following video for exact step-by-step guide of adding the ba
 
 3. **Charge the Battery Inside the Robot**:
     - Use a multimeter to check the batteires voltage. Keep the batteries always charged.
-    .. image:: /_static/magni-mini/.jpg
+
+    .. image:: /_static/magni-mini/getting_started/.jpg
         :alt: Checking the batteries voltage inside the Robot
         :width: 400px
         :align: center
 
     - Once the batteries are inside the robot use the provided charger to charge them.
-     .. image:: /_static/magni-mini/.jpg
+
+     .. image:: /_static/magni-mini/getting_started/.jpg
         :alt: Charging the batteries inside the Robot 
         :width: 400px
         :align: center
@@ -205,7 +213,7 @@ Powering up the Robot
 
 1. Locate the white power switch on the back of the Magni 6 Mini and turn it on.
 
-.. image:: /_static/magni-mini/mini_whiteSwitch1.jpg
+.. image:: /_static/magni-mini/getting_started/mini_whiteSwitch1.jpg
     :alt: White Switch on the Mini
     :width: 400px
     :align: center
@@ -214,7 +222,7 @@ Powering up the Robot
 
 2. Confirm the Raspberry Pi's green LED is illuminated. This indicates the robot is powered on.
 
-.. image:: /_static/magni-mini/.jpg
+.. image:: /_static/magni-mini/getting_started/rpi5_light_through_chasis.jpg
     :alt: Raspberry Pi Green Light through Chasis
     :width: 400px
     :align: center
@@ -251,14 +259,14 @@ See :doc:`../../software/advanced/connecting`, for more advanced connectivity gu
 
     ssh ubuntu@10.42.0.1
 
-.. image:: /_static/magni-mini/.jpg
+.. image:: /_static/magni-mini/getting_started/.jpg
     :alt: Connect - username written 
     :width: 400px
     :align: center
 
 3. You will be prompted a password, the password is: **ubuntu**
 
-.. image:: /_static/magni-mini/.jpg
+.. image:: /_static/magni-mini/getting_started/.jpg
     :alt: Connect - password written 
     :width: 400px
     :align: center
@@ -274,7 +282,7 @@ You can follow the following video for exact step-by-step guide of connecting to
 
 If you followed the steps successfully you will be connected to the robot:
 
-.. image:: /_static/magni-mini/.jpg
+.. image:: /_static/magni-mini/getting_started/.jpg
     :alt: Connection to the robot via Terminal Successful
     :width: 400px
     :align: center
@@ -313,7 +321,7 @@ You can follow the following video for exact step-by-step guide of connecting to
 
 You are now connected to the robot with Internet access.
 
-.. image:: /_static/magni-mini/.jpg
+.. image:: /_static/magni-mini/getting_started/.jpg
     :alt: Connection to the robot via Network Successful
     :width: 400px
     :align: center
@@ -328,14 +336,14 @@ To drive the robot you must fulfill the following requirements:
 1. Ensure the robot is powered on.
 2. Open three terminal sessions connected to the robot (via SSH)
 
-.. image:: /_static/magni-mini/.jpg
+.. image:: /_static/magni-mini/getting_started/.jpg
     :alt: Three empty terminals connected to the robot 
     :width: 400px
     :align: center
 
 3. Activate the MCB by pressing the button closest to the wires.
 
-.. image:: /_static/magni-mini/mini-MCB_buttons.jpg
+.. image:: /_static/magni-mini/getting_started/mini-MCB_buttons.jpg
     :alt: MCB buttons
     :width: 400px
     :align: center
@@ -362,7 +370,7 @@ To drive the robot you must fulfill the following requirements:
     teleop
 
 
-.. image:: /_static/magni-mini/.jpg
+.. image:: /_static/magni-mini/getting_started/.jpg
     :alt: Three terminals with full commands 
     :width: 400px
     :align: center
