@@ -8,7 +8,7 @@ These sensors enhance navigation and mapping capabilities, and fitting various o
 N10 - Short Range LiDAR
 -----------------------
 
-The N10 isa compact, short-range LiDAR ideal for indoor environments and tight spaces. 
+The N10 is a compact, short-range LiDAR ideal for indoor environments and tight spaces. 
 Its high accuracy and 360 degrees scanning make it perfect for precise mapping and obstacle avoidance in confined areas.
 
 .. image:: /_static/lidars/lidar_short.png
