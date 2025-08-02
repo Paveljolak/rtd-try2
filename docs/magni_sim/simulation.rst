@@ -203,7 +203,7 @@ Step 1: Launch Teleop Node
 .. code-block:: bash
 
    # Keyboard teleoperation
-   rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+   ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=/diff_drive_controller/cmd_vel -p stamped:=true
 
 Step 2: Robot Control Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
