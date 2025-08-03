@@ -172,8 +172,9 @@ Step 2: Verify Robot Spawning
 After launching, verify the following:
 
 - Gazebo simulator window opens with the Magni robot visible
-- Robot model loads with correct visual and collision properties
-- All joints and sensors initialize properly
+- Robot model loads with correct visual and collision properties. You will see 2 windows: Gazebo and RViz
+- Robot is positioned on the ground plane without falling through
+- All joints and sensors initialize properly. check RViz for joint states and sensor data
 
 Step 3: Check ROS Topics
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -181,7 +182,7 @@ Step 3: Check ROS Topics
 .. code-block:: bash
 
    # List active topics
-   rostopic list
+   ros2 topic list
 
 Expected topics include:
 
@@ -193,6 +194,23 @@ Expected topics include:
    /tf                   # Transform tree
    /scan                 # Laser scan data (if lidar enabled)
    /sonar_*              # Sonar sensor readings
+   /battery_state
+   /camera/camera_info
+   /clicked_point
+   /clock
+   /controller_manager/activity
+   /controller_manager/introspection_data/full
+   /controller_manager/introspection_data/names
+   /controller_manager/introspection_data/values
+   /diagnostics
+   /diff_drive_controller/cmd_vel
+   /goal_pose
+   /initialpose
+   /parameter_events
+   /robot_description
+   /rosout
+   /tf_static 
+
 
 Teleoperation Testing
 ---------------------
@@ -225,26 +243,6 @@ Step 2: Robot Control Commands
    .       Move backward with right turn
    ======= ================================
 
-Advanced Simulation Scenarios
------------------------------
-
-Multi-Robot Simulation
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-   # Launch multiple Magni robots
-   roslaunch magni_gazebo multi_magni.launch robot_count:=3
-
-Custom World Integration
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-   # Launch with custom Gazebo world
-   roslaunch magni_gazebo magni_world.launch world_name:=custom_warehouse
-
---------
 
 Troubleshooting
 ===============
