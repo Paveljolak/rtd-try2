@@ -367,7 +367,7 @@ Community Support
 Additional Resources
 --------------------
 
-- `Gazebo Simulation Tutorials <http://gazebosim.org/tutorials>`_
+- `Gazebo Simulation Tutorials <https://gazebosim.org/docs/harmonic/getstarted/>`_
 - `ROS Navigation Stack Documentation <http://wiki.ros.org/navigation>`_
 - `URDF Tutorials and Examples <http://wiki.ros.org/urdf/Tutorials>`_
 
