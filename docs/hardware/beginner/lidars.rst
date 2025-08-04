@@ -4,6 +4,7 @@ Lidars
 Our robots are equipped with two LiDAR options: the N10 Short Range LiDAR and the MS1L Long Range LiDAR.
 These sensors enhance navigation and mapping capabilities, and fitting various operational needs. 
 
+.. _n10_lidar:
 
 N10 - Short Range LiDAR
 -----------------------
@@ -56,6 +57,8 @@ Its high accuracy and 360 degrees scanning make it perfect for precise mapping a
 
 
 
+
+.. _ms1l_lidar:
 
 MS1L - Long Range LiDAR    
 -----------------------

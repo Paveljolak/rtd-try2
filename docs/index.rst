@@ -24,6 +24,7 @@ Sections
 - `Getting Started <getting_started_section_>`_: This section shows what you need to set up your robot and workstation (PC). Then follow step-by-step guides from unboxing to driving your Magni Robots.
 |
 - `Magni 6 Models <magni6_models_section_>`_: This section introduces the Magni Gen 6 robot models. It includes overview, common use cases, build specifications, custom software images, included sensors, and optional add-ons. It also includes the full assembly guides for each one of the robots.
+.. TODO: Add the magni sim here.
 |
 - `Software <software_section_>`_: This section details the robot's software, including custom images, their specifications, and tutorials for using our custom software.
 |
@@ -65,9 +66,8 @@ Sections
    :maxdepth: 2
    :caption: Software
 
-   software/images
-   software/openrmf
-   software/ezmap
+   software/beginner/main_software_beginner
+   software/advanced/main_software_advanced
 
 .. _hardware_section:
 
